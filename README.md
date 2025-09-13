@@ -652,6 +652,12 @@ subscription.disposed(by: disposeBag)
 6. **Test your reactive code** with RxTest
 7. **Use appropriate schedulers** - background for heavy work, main for UI updates
 
+
+## Tips
+1. **SwiftUI** → use property wrappers + Combine
+2. **UIKit** → use RxSwift + RxCocoa (old UIKit used delegate/protocols instead)
+3. Mixed/complex → can mix SwiftUI with RxSwift, but rare   
+
 ## Resources
 
 - [RxSwift GitHub Repository](https://github.com/ReactiveX/RxSwift)
