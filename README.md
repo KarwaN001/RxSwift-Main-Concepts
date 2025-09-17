@@ -658,6 +658,11 @@ subscription.disposed(by: disposeBag)
 2. **UIKit** → use RxSwift + RxCocoa (old UIKit used delegate/protocols instead)
 3. Mixed/complex → can mix SwiftUI with RxSwift, but rare   
 
+### Remember 
+An Observable emits notifications of change, and the Observer subscribes to it and
+gets notified when the Observable has changed. Pretty similar to the classic Observer
+pattern.
+
 ## Resources
 
 - [RxSwift GitHub Repository](https://github.com/ReactiveX/RxSwift)
