@@ -131,7 +131,7 @@ subscription.dispose()
 **Types & Lifecycle**:
 - **PublishSubject** → emits new items after subscription
 - **BehaviorSubject** → keeps the latest value + new items
-- **ReplaySubject** → replays a buffer of old items
+- **ReplaySubject** → emit from the buffer size to the last items “buffer size decides how many past items are replayed”
 - **AsyncSubject** → only emits the last value after completion
 
 **Use case**: When you want to push values into a stream.
